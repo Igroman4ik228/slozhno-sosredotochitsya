@@ -2,8 +2,8 @@
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
   --main-color: #353430;
-  --main-bg-color: #FFF1F7;
-  --header-bg-path: url(../images/cover-image-light.png);
+  --bg-color: #FFF1F7;
+  --bg-path: url(../images/cover-image-light.png);
   --header-display-decor: none;
   --section-title-color: var(--main-color);
   --button-color: var(--main-color);
@@ -15,8 +15,8 @@
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
     --main-color: #353430;
-    --main-bg-color: #FFF1F7;
-    --header-bg-path: url(../images/cover-image-light.png);
+    --bg-color: #FFF1F7;
+    --bg-path: url(../images/cover-image-light.png);
     --header-display-decor: none;
     --section-title-color: var(--main-color);
     --button-color: var(--main-color);

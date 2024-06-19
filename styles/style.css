@@ -2,13 +2,13 @@
   font-family: 'IBM Plex mono';
   font-weight: 400;
   font-size: 18px;
-  background-color: var(--main-bg-color);
-  background-image: var(--header-bg-path);
+  /* Если на заднем фоне не отобразится картинка, то отобразится цвет */
+  background-color: var(--bg-color);
+  background-image: var(--bg-path);
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
-
+  background-attachment: fixed;
 }
 
 .section-title {
@@ -45,8 +45,8 @@
   display: grid;
   grid-template-rows: repeat(3, 1fr);
   align-items: start;
-  padding: 20px;
   height: 100svh;
+  padding: 20px;
 }
 
 .header::before {
@@ -191,15 +191,15 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
-  padding: 0 20px;
   margin-top: 60px;
+  padding: 0 20px;
 }
 
 @media(max-width: 425px) {
   .main {
     gap: 50px;
-    padding: 0 10px;
     margin-top: 40px;
+    padding: 0 10px;
   }
 }
 
@@ -234,7 +234,7 @@
 
 /* What */
 .what__title {
-  width: calc(100% / 3);
+  width: calc(100% / 3 - 2%);
 }
 
 .what__content-list {
@@ -251,10 +251,6 @@
 @media(max-width: 840px) {
   .what__content-list {
     grid-template-columns: auto;
-  }
-
-  .what__title {
-    width: calc(100% / 3 - 6px);
   }
 }
 
