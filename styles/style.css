@@ -1,5 +1,5 @@
 .page {
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', monospace, sans-serif;
   font-weight: 400;
   font-size: 18px;
   /* Если на заднем фоне не отобразится картинка, то отобразится цвет */
